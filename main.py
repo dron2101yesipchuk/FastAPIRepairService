@@ -1,4 +1,3 @@
-#!flask/bin/python
 from fastapi import FastAPI
 from repair_service import RepairService
 from pydantic import BaseModel
