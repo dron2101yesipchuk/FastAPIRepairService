@@ -1,28 +1,20 @@
 class Device:
+    id: int
+    name: str
+    issue: str
+
     def __init__(self, id, name, issue):
-        self._id = id
-        self._name = name
-        self._issue = issue
+        self.id = id
+        self.name = name
+        self.issue = issue
 
-    def getid(self):
-        return self._id
+    @property
+    def serialize(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'author': self.issue
+        }
 
-    def setid(self, id):
-        self._id = id
-
-    def getname(self):
-        return self._name
-
-    def setname(self, name):
-        self._name = name
-
-    def getissue(self):
-        return self._issue
-
-    def setissue(self, issue):
-        self._issue = issue
-
-    id = property(getid, setid)
-    name = property(getname, setname)
-    issue = property(getissue, setissue)
-
+    def __repr__(self):
+        return str(self.__dict__)
