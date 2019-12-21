@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c0fcfe-1170-4654-9563-69c8a41b0248" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576954421938</updated>
       <workItem from="1576954423615" duration="6209000" />
-      <workItem from="1576968093926" duration="339000" />
+      <workItem from="1576968093926" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="some service and api improvements">
       <created>1576960559704</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576968192383</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Procfile and requirements for heroku">
+      <created>1576968459000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576968459000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +110,7 @@
     <MESSAGE value="some service and api improvements" />
     <MESSAGE value="delete method fix" />
     <MESSAGE value="device serialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="device serialization" />
+    <MESSAGE value="added Procfile and requirements for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Procfile and requirements for heroku" />
   </component>
 </project>
