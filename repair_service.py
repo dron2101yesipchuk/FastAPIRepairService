@@ -34,7 +34,7 @@ class RepairService:
 
     def delete_device(self, id):
         device_for_delete = list(filter(lambda d: d.id == id, self.devices_on_repair))
-        if len(device_for_delete) != 0:
+        if len(device_for_delete) == 0:
             return False
         self.devices_on_repair.remove(device_for_delete[0])
         return True
