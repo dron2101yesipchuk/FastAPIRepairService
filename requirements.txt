@@ -4,7 +4,7 @@ dnspython==1.16.0
 email-validator==1.0.5
 fastapi==0.42.0
 Flask==1.1.1
-gunicorn==20.0.0
+gunicorn==20.0.4
 h11==0.8.1
 idna==2.8
 itsdangerous==1.1.0
